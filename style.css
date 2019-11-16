@@ -17,22 +17,29 @@ p {
 DIV styles
 ***********/
 
-.result {
-    background-color: aqua;
-    margin: auto;
-    margin-top: 30px;
-    width: 400px;
-    padding: 15px;
-}
-
 .ball img {
     display: block;
     margin: auto;
 }
 
 .ball {
-    
+    position: relative;
+    margin-top: 80px;
 }
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.center p {
+    font-family: 'Gloria Hallelujah', cursive;
+    color: rgba(79, 63, 224, 0.863);
+}
+
 
 /***********
 a hred styles
@@ -50,7 +57,7 @@ Form styles
 .form-input{
     width: 400px;
     margin: auto;
-    background-color: coral;
+    background-color: whitesmoke;
     padding: 15px;
     margin-top: 80px;
 }
@@ -67,7 +74,7 @@ Form styles
 
 .button-input {
     width: 100%;
-    background-color: #4CAF50;
+    background-color: rgba(79, 63, 224, 0.6);
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
