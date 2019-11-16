@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/***********
+Global styles
+***********/
+
+
+/***********
+Font styles
+***********/
+
+
+
+/***********
+a hred styles
+***********/
+
+
+
+
+
+
+/***********
+Form styles
+***********/
+
+.form-input{
+    width: 400px;
+
+}
+
+.text-field {
+    display: block;
+    background-color: blue;
+    width: 1005;
+    
+}
