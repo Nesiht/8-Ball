@@ -3,4 +3,4 @@ My attempt at creating the classic fortune telling toy, first invented by Albert
 
 Magic 8-ball [Wiki](https://en.wikipedia.org/wiki/Magic_8-Ball)
 
-:crystal_ball:
+:8ball:
