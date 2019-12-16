@@ -26,3 +26,11 @@ const answer = [
 upDate = () => {
     document.getElementById('answer').innerHTML = answer[Math.floor(Math.random() * 20 )];
 }
+
+// EventListeners
+document.getElementById("text-input").addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+   event.preventDefault();
+   document.getElementById("button").click();
+  }
+});
